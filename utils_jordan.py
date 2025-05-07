@@ -1,5 +1,5 @@
 """
-File: utils_case_advanced.py
+File: utils_jordan.py
 
 Purpose: Reusable Module for My Analytics Projects
 
@@ -10,11 +10,8 @@ A good byline could be used in every Python analytics project we do.
 Advanced: This version requires a working .venv with loguru and pyttsx3 installed.
 It includes a function to read the byline aloud using pyttsx3.
 
-Author: Denise Case
+Author: JfromNWMS
 
-TODO: Change the module name in this opening docstring to use your name instead of case. 
-TODO: Change the author in this opening docstring to your name or alias. 
-TODO: Remove these TODOS after you have completed them.
 """
 
 #####################################

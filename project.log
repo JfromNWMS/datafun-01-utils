@@ -32,3 +32,37 @@ Mean Satisfaction Score: 4.80
 Standard Deviation of Satisfaction Scores: 0.16
 
 2025-05-07 16:40:14.650 | INFO     | __main__:main:148 - END main() in utils_case.py
+2025-05-07 16:43:06.227 | INFO     | __main__:<module>:41 - Logger loaded.
+2025-05-07 16:43:06.228 | INFO     | __main__:main:139 - START main() in utils_case.py
+2025-05-07 16:43:06.228 | INFO     | __main__:main:142 - Byline:
+
+---------------------------------------------------------
+Stellar Analytics: Delivering Professional Insights
+---------------------------------------------------------
+Has International Clients:  True
+Years in Operation:         10
+Skills Offered:             ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score: 4.80
+Standard Deviation of Satisfaction Scores: 0.16
+
+2025-05-07 16:43:40.294 | INFO     | __main__:main:148 - END main() in utils_case.py
+2025-05-07 16:43:48.145 | INFO     | __main__:<module>:41 - Logger loaded.
+2025-05-07 16:43:48.146 | INFO     | __main__:main:139 - START main() in utils_case.py
+2025-05-07 16:43:48.146 | INFO     | __main__:main:142 - Byline:
+
+---------------------------------------------------------
+Stellar Analytics: Delivering Professional Insights
+---------------------------------------------------------
+Has International Clients:  True
+Years in Operation:         10
+Skills Offered:             ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score: 4.80
+Standard Deviation of Satisfaction Scores: 0.16
+
+2025-05-07 16:44:22.198 | INFO     | __main__:main:148 - END main() in utils_case.py
