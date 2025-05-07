@@ -49,7 +49,7 @@ years_as_math_student: int = 20
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+favorite_irrational_number: float = 1.618
 
 # declare a list of strings
 last_three_math_courses: list = ["Abstract Algebra", "Calculus 7", "Euclidian Geometry"]
@@ -68,14 +68,15 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Current Student of Mathematics:      {is_math_student}
-Years as a Mathematics Student:      {years_as_math_student}
-Last Three Math Courses:             {last_three_math_courses}
-Final Scores of Courses:             {last_three_course_scores}
-Minimum Course Score:                {min_score}
-Maximum Course Score:                {max_score}
-Mean Course Score:                   {mean_score:.2f}
-Standard Deviation of Course Scores: {stdev_score:.2f}
+Current Student of Mathematics:       {is_math_student}
+Years as a Mathematics Student:       {years_as_math_student}
+Favorite Irrational Number:           {favorite_irrational_number:.3f}...
+Last Three Math Courses:              {', '.join(last_three_math_courses)}
+Final Scores of Courses:              {', '.join(map(str, last_three_course_scores))}
+Minimum Course Score:                 {min_score}
+Maximum Course Score:                 {max_score}
+Mean Course Score:                    {mean_score:.1f}
+Standard Deviation of Course Scores:  {stdev_score:.2f}
 """
 
 #####################################
