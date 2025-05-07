@@ -1,2 +1,2 @@
 # datafun-01-utils
-1.4 assignment 
+This repo is an assignment for a college course.
