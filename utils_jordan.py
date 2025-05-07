@@ -27,7 +27,7 @@ import statistics
 # Learn more: https://pypi.org/project/loguru/ 
 # Learn more:  https://pypi.org/project/pyttsx3/
 #import loguru   # Easy logging
-import pyttsx3  # Text-to-speech engine
+#import pyttsx3  # Text-to-speech engine
 
 #####################################
 # Configure Logger and Verify
