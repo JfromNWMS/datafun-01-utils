@@ -26,27 +26,25 @@ import statistics
 # Import packages from requirements.txt
 # Learn more: https://pypi.org/project/loguru/ 
 # Learn more:  https://pypi.org/project/pyttsx3/
-import loguru   # Easy logging
+#import loguru   # Easy logging
 import pyttsx3  # Text-to-speech engine
 
 #####################################
 # Configure Logger and Verify
 #####################################
 
-logger = loguru.logger
-logger.add("project.log", level="INFO", rotation="100 KB") 
-logger.info("Logger loaded.")
+#logger = loguru.logger
+#logger.add("project.log", level="INFO", rotation="100 KB") 
+#logger.info("Logger loaded.")
 
 #####################################
 # Declare Global Variables
 #####################################
 
 # declare a boolean variable (has a value True or False)
-# TODO: Add another or replace this with your own boolean variable
 is_math_student: bool = True
 
 # declare an integer variable 
-# TODO: Add or replace this with your own integer variable
 years_as_math_student: int = 20
 
 # declare a floating point variable
@@ -54,30 +52,25 @@ years_as_math_student: int = 20
 average_client_satisfaction: float = 4.7
 
 # declare a list of strings
-# TODO: Add or replace this with your own list  
-last_three_math_classes: list = ["Abstract Algebra", "Calculus 7", "Euclidian Geometry"]
+last_three_math_courses: list = ["Abstract Algebra", "Calculus 7", "Euclidian Geometry"]
 
-# declare a list of numbers so we can illustrate statistics skills
-# TODO: Add or replace this with your own numeric list  
+# declare a list of numbers so we can illustrate statistics skills 
 last_three_course_scores: list = [74, 53, 98]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
-# TODO: Replace these variable names with the variable name of your own numeric list
 min_score: float = min(last_three_course_scores)  
 max_score: float = max(last_three_course_scores)  
 mean_score: float = statistics.mean(last_three_course_scores)  
 stdev_score: float = statistics.stdev(last_three_course_scores)
 
 # Use a Python formatted string (f-string) to show information
-# TODO: Modify the text in the byline to fit your information
-# TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
 Current Student of Mathematics:      {is_math_student}
 Years as a Mathematics Student:      {years_as_math_student}
-Last Three Math Courses:             {last_three_math_classes}
+Last Three Math Courses:             {last_three_math_courses}
 Final Scores of Courses:             {last_three_course_scores}
 Minimum Course Score:                {min_score}
 Maximum Course Score:                {max_score}
@@ -109,12 +102,12 @@ def get_byline() -> str:
 
 
 # Read the byline aloud (requires pyttsx3)
-
+"""
 def read_byline_aloud():
     engine = pyttsx3.init()
     engine.say(get_byline())
     engine.runAndWait()
-
+"""
 
 #####################################
 # Define main function for this module.
@@ -132,17 +125,17 @@ def main() -> None:
     Everything after the colon must be indented consistently (usually 4 spaces)
     '''
 
-    print("START main() in utils_case.py")
-    loguru.logger.info("START main() in utils_case.py")
+    print("START main() in utils_jordan.py")
+    #loguru.logger.info("START main() in utils_jordan.py")
 
     print(get_byline())
-    loguru.logger.info("Byline:\n" + get_byline())
+    #loguru.logger.info("Byline:\n" + get_byline())
 
     # Uncomment to hear it read aloud:
-    read_byline_aloud()
+    #read_byline_aloud()
 
-    print("END main() in utils_case.py")
-    loguru.logger.info("END main() in utils_case.py")
+    print("END main() in utils_jordan.py")
+    #loguru.logger.info("END main() in utils_jordan.py")
 
 #####################################
 # Conditional Execution
