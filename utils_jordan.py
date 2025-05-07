@@ -66,7 +66,7 @@ stdev_score: float = statistics.stdev(last_three_course_scores)
 # Use a Python formatted string (f-string) to show information
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Graduate Applicant Basic Analytics
 ---------------------------------------------------------
 Current Student of Mathematics:       {is_math_student}
 Years as a Mathematics Student:       {years_as_math_student}
