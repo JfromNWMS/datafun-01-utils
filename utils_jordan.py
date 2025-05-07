@@ -43,11 +43,11 @@ logger.info("Logger loaded.")
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+is_math_student: bool = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+years_as_math_student: int = 20
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
@@ -55,18 +55,18 @@ average_client_satisfaction: float = 4.7
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+last_three_math_classes: list = ["Abstract Algebra", "Calculus 7", "Euclidian Geometry"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+last_three_course_scores: list = [74, 53, 98]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(last_three_course_scores)  
+max_score: float = max(last_three_course_scores)  
+mean_score: float = statistics.mean(last_three_course_scores)  
+stdev_score: float = statistics.stdev(last_three_course_scores)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -75,14 +75,14 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Current Student of Mathematics:      {is_math_student}
+Years as a Mathematics Student:      {years_as_math_student}
+Last Three Math Courses:             {last_three_math_classes}
+Final Scores of Courses:             {last_three_course_scores}
+Minimum Course Score:                {min_score}
+Maximum Course Score:                {max_score}
+Mean Course Score:                   {mean_score:.2f}
+Standard Deviation of Course Scores: {stdev_score:.2f}
 """
 
 #####################################
